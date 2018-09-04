@@ -27,11 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC5E36C0-C27
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FC14D07B-8C4D-4AF2-AF65-465891A375F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Console", "ExchangePredict.Console\ExchangePredict.Console.csproj", "{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Console", "src\ExchangePredict.Console\ExchangePredict.Console.csproj", "{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.BuildBlocks", "ExchangePredict.BuildBlocks\ExchangePredict.BuildBlocks.csproj", "{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.BuildBlocks", "src\ExchangePredict.BuildBlocks\ExchangePredict.BuildBlocks.csproj", "{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Tests", "ExchangePredict.Tests\ExchangePredict.Tests.csproj", "{8366DC0D-E932-474F-BF07-2ECB1D63B555}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Tests", "test\ExchangePredict.Tests\ExchangePredict.Tests.csproj", "{8366DC0D-E932-474F-BF07-2ECB1D63B555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
