@@ -37,9 +37,9 @@ namespace ExchangePredict.BuildBlocks.Services
                 return _exchangeRatesResource.GetHistorical(date, from, new[] { to });
             })).ConfigureAwait(false);
 
-            var dataPoints = exchangeRates.Select(xRate =>
+            var dataPoints = exchangeRates.Select((xRate, index) =>
             {
-                var x = xRate.TimeStamp.Month;
+                var x = numOfSamples - index;
                 var y = xRate.Rates[to];
                 return new DataPoint2D(x, y);
             }).ToList();

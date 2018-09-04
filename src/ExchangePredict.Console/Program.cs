@@ -34,6 +34,7 @@ namespace ExchangePredict.Console
 
             var targetDate = new DateTime(2017, 1, 15);
             var services = new ServiceCollection();
+            var numberOfSamples = 12;
             services.AddExchangePredict(opts =>
             {
                 opts.Endpoint = "https://openexchangerates.org/api/";
@@ -41,7 +42,7 @@ namespace ExchangePredict.Console
             });
             var sp = services.BuildServiceProvider();
             var predictor = sp.GetService<IExchangeRatePredictor>();
-            var result = predictor.PredictAsync(from, to, targetDate, 12)
+            var result = predictor.PredictAsync(from, to, targetDate, numberOfSamples)
                 .GetAwaiter()
                 .GetResult();
 
