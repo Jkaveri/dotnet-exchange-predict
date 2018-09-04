@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD4B8439-6FD2-4A7C-945D-D02BB715428A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		build.ps1 = build.ps1
+		build.sh = build.sh
+		common.props = common.props
+		LICENSE = LICENSE
+		README.md = README.md
+		Settings.StyleCop = Settings.StyleCop
+		stylecop.json = stylecop.json
+		stylecop.props = stylecop.props
+		stylecop.test.props = stylecop.test.props
+		StyleCopRules.ruleset = StyleCopRules.ruleset
+		StyleCopRules.test.ruleset = StyleCopRules.test.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC5E36C0-C27A-4D98-9846-79CFF19F7AD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FC14D07B-8C4D-4AF2-AF65-465891A375F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Console", "ExchangePredict.Console\ExchangePredict.Console.csproj", "{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.BuildBlocks", "ExchangePredict.BuildBlocks\ExchangePredict.BuildBlocks.csproj", "{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePredict.Tests", "ExchangePredict.Tests\ExchangePredict.Tests.csproj", "{8366DC0D-E932-474F-BF07-2ECB1D63B555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8366DC0D-E932-474F-BF07-2ECB1D63B555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8366DC0D-E932-474F-BF07-2ECB1D63B555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8366DC0D-E932-474F-BF07-2ECB1D63B555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8366DC0D-E932-474F-BF07-2ECB1D63B555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{858D5DF3-186D-4F79-9ED3-9DC3F7AA5E38} = {CC5E36C0-C27A-4D98-9846-79CFF19F7AD4}
+		{4B8E8D78-1F93-4E58-87CD-D0E6EE77D95F} = {CC5E36C0-C27A-4D98-9846-79CFF19F7AD4}
+		{8366DC0D-E932-474F-BF07-2ECB1D63B555} = {FC14D07B-8C4D-4AF2-AF65-465891A375F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A30F899-35B5-49A9-96CB-AF1D432C21FD}
+	EndGlobalSection
+EndGlobal
